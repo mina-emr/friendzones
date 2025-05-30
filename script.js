@@ -85,7 +85,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const allTimezones = await response.json();
             const filtered = allTimezones
                 .filter(tz => tz.toLowerCase().includes(searchTerm.toLowerCase()))
-                .sort((a, b) => a.localeCompare(b)); // Sort alphabetically
+                .sort((a, b) => a.localeCompare(b)) // Sort alphabetically
+                .slice(0, 10);  // show only first 10 results
             
             if (filtered.length) {
                 // Get current time for each matching timezone

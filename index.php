@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="Friendzone">
+    <meta name="apple-mobile-web-app-title" content="Friendzone Tracker">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="apple-touch-icon" href="img/icon.png">
+    
     <favicon rel="icon" href="img/icon.png" type="image/png">
-    <title>Friend Time Tracker</title>
+    <title>Friendzone Tracker</title>
     <link rel="icon" href="img/kse.gif" type="image/gif">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Short+Stack&display=swap" rel="stylesheet">
