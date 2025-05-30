@@ -225,8 +225,8 @@ button:hover {
     height: 100%;
 }
 
-.clock-card.daytime::before { background-color: var(--tulip-pink); }
 .clock-card.morning::before { background-color: var(--tulip-pink-dark); }
+.clock-card.daytime::before { background-color: var(--tulip-pink); }
 .clock-card.afternoon::before { background-color: var(--sky-blue); }
 .clock-card.evening::before { background-color: var(--sky-blue-dark); }
 .clock-card.night::before { background-color: var(--sky-blue-darker); }

@@ -1,0 +1,36 @@
+{
+  "name": "Friendzone Tracker",
+  "short_name": "Friendzone",
+  "description": "Track your friends' timezones so you don't forget when they're awake",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#d3dee2",
+  "theme_color": "#3f6b91",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "splash_pages": null,
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "img/splash.png",
+      "type": "image/png",
+      "sizes": "1242x2208",
+      "form_factor": "narrow"
+    }
+  ]
+}
